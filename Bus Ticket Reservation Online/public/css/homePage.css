@@ -1,0 +1,334 @@
+/*NAVBAR*/
+.navbar {
+    background-color: #D84F57;
+    font-family: "Montserrat-Light";
+}
+.navbar img {
+    width: 80px;
+    height: 50px;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+.modal-body p {
+    color: red;
+}
+.navbar a {
+    color: white;
+}
+.navbar .menu a {
+    color: black;
+}
+.navbar .menu a:hover{
+    color: black;
+}
+.navbar .menu a:active {
+    background: none;
+}
+ul {
+    list-style-type: none;
+}
+.navbar a:hover,
+.navbar a:active,
+.navbar a:focus{
+    color: white;
+}
+.btn:hover,
+.btn:active,
+.btn:focus,
+.btn-order:hover,
+.btn-order:active,
+.btn-order:focus,
+.btn-cancel:hover,
+.btn-cancel:active,
+.btn-cancel:focus{
+    background-color: #D84F57;
+    color: white;
+    outline: none;
+    border-style: none;
+    box-shadow: none!important;
+}
+.btn, .btn-order, .btn-cancel {
+    background-color: #D84F57;
+    color: white;
+    outline: none;
+}
+.btn-order, .btn-cancel {
+    width: 80px;
+    border: none;
+    height: 38px;
+    border-radius: 5px;
+}
+.sweet-warning {
+    background-color: #D84F57;
+}
+.sweet-warning:not([disabled]):hover{
+    background-color: #D84F57;
+}
+
+/*CONTENT*/
+.home {
+    background-color: #F8F4F4;
+    min-height: 50px;
+    position: relative;
+    font-family: "Montserrat-Light";
+}
+.home p {
+    position: absolute;
+    top: 15px;
+}
+.content {
+    width: 80%;
+    min-height: 300px;
+}
+.content p, .tujuan, .berangkat, .kapasitas, .beli, input[type=text], button[type=button] {
+    font-family: "Montserrat-Light";
+}
+.search {
+    height: 50px;
+    border-radius: 100px;
+}
+.search-box .btn {
+    width: 80px;
+    border-radius: 100px;
+}
+.search:hover,
+.search:active,
+.search:focus {
+    border-style: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.content .ticket {
+    width: 100%;
+    min-height: 100px;
+    display: grid;
+    align-items: center;
+    grid-auto-flow: column;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+}
+.disable-ticket {
+    display: grid;
+    align-items: center;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #D84F57;
+    opacity: .9;
+    font-family: "Montserrat-Light";
+}
+
+/*DETAIL TICKET*/
+.details-ticket {
+    width: 80%;
+    min-height: 100px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.description-ticket, .notifications {
+    font-family: "Montserrat-Light";
+}
+.asal-and-tujuan, .button-beli {
+    background-color: #E5E9F2;
+    padding: 10px;
+    border-radius: 10px;
+}
+.notifications {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(68,68,68,.8);
+    z-index: 999;
+}
+.button-beli {
+    min-height: 80px;
+}
+
+/*PROFILE USER*/
+.profile-user {
+    width: 80%;
+    min-height: 100px;
+    font-family: "Montserrat-Light";
+}
+.bg-profile {
+    background-image: url("/bg/annie-spratt-qyAka7W5uMY-unsplash.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.profile {
+    background-image: url("/bg/lachlan-dempsey-6VPEOdpFNAs-unsplash.jpg");
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.detail-user {
+    min-height: 300px;
+}
+.detail-text {
+    margin-top: 120px;
+}
+
+/*Payment User*/
+.payment-user {
+    width: 75%;
+    min-height: 300px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.payment-user .link {
+    min-height: 100px;
+    border-bottom: 1px solid black;
+}
+.payment-user .link p{
+    font-family: "Montserrat-Light";
+    color: #D84F57;
+    cursor: pointer;
+}
+.payment-user .link p:hover {
+    font-size: 25px;
+}
+.payment-user .incomplete-payment, .payment-user .complete-payment {
+    font-family: "Montserrat-Light";
+}
+.payment-user .price-total {
+    min-height: 50px;
+}
+.block-order {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F8F8F8;
+    opacity: 0.8;
+}
+.on-delete-order {
+    background: none;
+    border: none;
+    z-index: 999;
+    position: absolute;
+}
+
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url('/font/Montserrat-Light.ttf');
+}
+
+/*// X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .navbar-collapse {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+    }
+    .home p {
+        font-size: 3vw;
+    }
+    .content {
+        width: 99%;
+    }
+    .ticket {
+        overflow-x: auto;
+        gap: 10px;
+    }
+    .disable-ticket {
+        width: 500%;
+    }
+    .details-ticket {
+        width: 99%;
+    }
+    .profile {
+        width: 150px;
+        height: 150px;
+    }
+    .bg-profile {
+        background-image: url("/bg/annie-spratt-qyAka7W5uMY-unsplash.jpg");
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .detail-text {
+        margin-top: 90px;
+    }
+    .payment-user {
+        width: 95%;
+        min-height: 300px;
+    }
+}
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px)  and (max-width: 768px) {
+    .navbar-collapse {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+    }
+    .content {
+        width: 90%;
+    }
+    .ticket {
+        gap: 10px;
+        overflow-x: auto;
+    }
+    .disable-ticket {
+        width: 200%;
+    }
+    .details-ticket {
+        width: 90%;
+    }
+    .payment-user {
+        width: 90%;
+        min-height: 300px;
+    }
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .navbar-collapse {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+    }
+    .ticket {
+        gap: 10px;
+    }
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .navbar-collapse {
+        display: grid;
+        justify-content: end;
+        margin-right: 150px;
+    }
+    .home p {
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    .content {
+        width: 80%;
+    }
+}
+
+/*// X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
+
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+}

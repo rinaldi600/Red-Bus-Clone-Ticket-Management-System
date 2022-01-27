@@ -1,0 +1,110 @@
+.setting {
+    display: grid;
+    justify-content: end;
+}
+.navbar {
+    font-family: "Roboto-Regular";
+    background-color: #E62264;
+}
+.navbar-nav li a, .navbar-brand, a {
+    color: white;
+    letter-spacing: 1px;
+}
+.navbar-nav li a:hover,
+.navbar-nav li a:focus{
+    color: white;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+.list-ticket, .list-supir, .list-order, .list-user, .list-harga, .list-tempat, .form-addData {
+    width: 85%;
+    margin: 100px auto;
+}
+.btn:hover {
+    background: none;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.table, form, h1, .alert, .list-supir input[type=text], .modal-body {
+    font-family: "Roboto-Regular";
+}
+.table ul {
+    list-style-type: none;
+}
+.table ul li form button[type=submit] {
+    background: none;
+    border: none;
+}
+.on-delete, .on-delete-place, .on-delete-harga, .on-delete-ticket, .on-delete-order, .on-delete-user {
+    background: none;
+    border: none;
+}
+.page-pagination ul li a {
+    color: black;
+    font-family: "Roboto-Regular";
+}
+.page-item {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.page-item.active .page-link {
+    background-color: #E62264 !important;
+    border: 1px solid #E62264 !important;
+}
+
+@font-face {
+    font-family: "Roboto-Light";
+    src: url('/font/Roboto-Light.ttf');
+}
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url('/font/Roboto-Regular.ttf');
+}
+
+
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .navbar-nav {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-nav {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-nav {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .menu-dropdown {
+        position: absolute;
+        top: 15%;
+        right: 5%;
+    }
+}

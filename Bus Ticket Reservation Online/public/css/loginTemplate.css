@@ -1,0 +1,97 @@
+.login-admin {
+    width: 60%;
+    overflow: hidden;
+}
+.form-signup {
+    min-height: 550px;
+}
+.bg-image {
+    background-image: url("/bg/roman-fox-qoXgaF27zBc-unsplash.jpg");
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title-signup {
+    font-family: "Roboto-Regular";
+}
+input[type=text], input[type=password], textarea {
+    font-family: "Roboto-Light";
+}
+label, .alert {
+    font-size: 18px;
+    font-family: "Roboto-Regular";
+}
+.success {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color:rgba(0,0,0,0.5);
+}
+.notifications {
+    width: 50%;
+    font-family: "Roboto-Regular";
+}
+.invalid-feedback, button[type=submit], a {
+    font-family: "Roboto-Regular";
+}
+.btn:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    color: black;
+    background: none;
+}
+
+@font-face {
+    font-family: "Roboto-Light";
+    src: url('/font/Roboto-Light.ttf');
+}
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url('/font/Roboto-Regular.ttf');
+}
+
+
+
+
+
+
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .login-admin {
+        width: 75%;
+    }
+    .bg-image {
+        height: 350px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .login-admin {
+        width: 70%;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .login-admin {
+        width: 70%;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .login-admin {
+        width: 65%;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
